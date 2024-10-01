@@ -77,7 +77,16 @@ The dataset is assumed to be large and is processed using PySpark DataFrames.
 
 - **Descriptive Statistics:** Computed summary statistics to understand feature distributions.
 - **Correlation Analysis:** Examined relationships between features and the target variable.
-- **Visualization:** Created histograms, box plots, and heatmaps to visualize data patterns.
+  
+  ![Correlation Matrix](images/CorrelationMatrix.png)
+
+- **Visualization of Categorical Features:** Plotted the distribution of key categorical variables.
+
+  ![Distribution of Categorical Features](images/DistributionCategoricalFeatures.png)
+
+- **Visualization of Numerical Features:** Created histograms and box plots to visualize the distribution of numerical features.
+
+  ![Distribution of Numerical Features](images/DistiributionNumericalFeatures.png)
 
 ### Feature Engineering
 
